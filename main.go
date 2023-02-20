@@ -2,9 +2,9 @@ package main
 
 import (
 	"encoding/json"
+	"log"
 	"net/http"
 	"time"
-	"log"
 )
 
 type TimeResponse struct {
@@ -26,10 +26,10 @@ func currentTimeHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-    http.HandleFunc("/time", currentTimeHandler)
+	http.HandleFunc("/time", currentTimeHandler)
 
-    err := http.ListenAndServe(":8795", nil)
-    if err != nil {
-        log.Fatal(err)
-    }
+	err := http.ListenAndServe(":8795", nil)
+	if err != nil {
+		log.Fatal(err)
+	}
 }
