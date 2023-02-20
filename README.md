@@ -6,3 +6,4 @@
 ### Contributors:
 - Danil Yaremenko danilyaremenko@gmail.com
 - Nikita Petrykin n.petrykin.im12@kpi.ua
+- Yurii Grygorash gyv220427@gmail.com
