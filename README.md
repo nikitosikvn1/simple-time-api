@@ -5,3 +5,4 @@
 
 ### Contributors:
 - Danil Yaremenko danilyaremenko@gmail.com
+- Nikita Petrykin n.petrykin.im12@kpi.ua
